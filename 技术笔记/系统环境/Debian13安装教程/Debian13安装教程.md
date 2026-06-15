@@ -53,6 +53,10 @@
     sudo apt update
     sudo apt install gir1.2-gnomedesktop-3.0
     ```
+2. 安装文件夹扩展依赖
+    ```bash
+    sudo apt install python3-nautilus
+    ```
 
 ## 五. 配置开发环境
 1. git

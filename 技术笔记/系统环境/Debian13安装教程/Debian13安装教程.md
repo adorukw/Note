@@ -37,7 +37,7 @@
     ```
 3. QQ
 4. 微信
-5. QQ音乐
+5. QQ音乐（启动命令修改为`Exec=/opt/qqmusic/qqmusic %U --no-sandbox`）
 6. WPS
 7. 腾讯会议
 8. Zotero
@@ -45,7 +45,14 @@
 10. Godot
 11. Xournal++
 12. Calibre
-13. 
+---
+
+## 五. 安装各种扩展
+1. 解决`GnomeDesktop-3.0 GIR file not found`
+    ```bash
+    sudo apt update
+    sudo apt install gir1.2-gnomedesktop-3.0
+    ```
 
 ## 五. 配置开发环境
 1. git

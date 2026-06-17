@@ -22,10 +22,16 @@
     sudo apt autoremove
     ```
 3. 卸载各种软件，并整理软件文件夹
-4. 调整tweak中的选项
-5. 修改截图、打开终端、返回桌面快捷键
-6. 安装vscode
-7. 安装扩展
+4. 添加闭源下载源
+    ```bash
+    sudo vim /etc/apt/sources.list
+    ```
+    添加`non-free`和`non-free-firmware`
+5. 安装MT7922网卡驱动`sudo apt install firmware-misc-nonfree network-manager`
+6. 调整tweak中的选项
+7. 修改截图、打开终端、返回桌面快捷键
+8. 安装vscode
+9. 安装扩展
 
 ## 四. 安装常用软件
 1. vim
@@ -73,9 +79,67 @@
     echo 'export NVM_NODEJS_ORG_MIRROR=https://npmmirror.com/mirrors/node' >> ~/.bashrc
     source ~/.bashrc
     nvm install --lts
-    npm config set registry shturl.cc/h1m2scAYvkPovf7iiabR
+    npm config set registry https://registry.npmmirror.com/
     ```
 4. gcc、gdb、cmake
     ```bash
     sudo apt install build-essential cmake gdb
+    ```
+
+5. Nginx
+    安装Nginx
+    ```bash
+    sudo apt install nginx
+    cd /etc/nginx/sites-available
+    sudo touch web
+    sudo ln -s /etc/nginx/sites-available/web /etc/nginx/sites-enabled/
+    sudo rm /etc/nginx/sites-enabled/default
+    sudo nginx -t
+    sudo systemctl restart nginx
+    sudo systemctl enable nginx
+    sudo systemctl start nginx
+    sudo systemctl status nginx
+    ```
+    编辑web配置文件
+    ```bash
+    sudo vim /etc/nginx/sites-available/web
+    ```
+    ```nginx
+    server {
+        listen 80;
+        server_name localhost;
+        
+        location /blog/ {
+            alias /home/adorukw/project/AdoruWorld/client/dist/;
+            try_files $uri $uri/ /blog/index.html;
+            # 静态资源缓存优化（可选推荐加）
+            expires 1d;
+            add_header Cache-Control "public, no-transform";
+        }
+
+        # 后端接口代理 /blog/api/
+        location /blog/api/ {
+            rewrite ^/blog(/.*)$ $1 break;
+            proxy_pass http://127.0.0.1:8000;
+
+            # 透传客户端真实信息
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+
+            # 超时设置，防止接口长时间请求断开
+            proxy_connect_timeout 60s;
+            proxy_read_timeout 60s;
+        }
+
+        location /uploads/ { 
+            rewrite ^/blog(/.*)$ $1 break;
+            proxy_pass http://127.0.0.1:8000;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme; 
+        }
+    }
     ```

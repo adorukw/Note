@@ -4,39 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "3dc68d894fbf8cb0",
+        "id": "805f1a78c0143cc2",
         "type": "split",
         "children": [
           {
-            "id": "50a11f9910722601",
+            "id": "5e5f487e6a858c4b",
             "type": "tabs",
-            "dimension": 62.92906178489702,
             "children": [
               {
-                "id": "e31c442c236d8ae7",
+                "id": "ae5c77e641690598",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "读书笔记/读聊斋志异之笔记.md",
+                    "file": "技术笔记/后端/FastAPI/基础教学.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "读聊斋志异之笔记"
+                  "title": "基础教学"
                 }
               }
             ]
           },
           {
-            "id": "4c18da4b1ee398ee",
+            "id": "8c434a15943ab928",
             "type": "tabs",
-            "dimension": 37.07093821510298,
             "children": [
               {
-                "id": "4336ba9a06bc896c",
+                "id": "9a0353505c43756a",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
@@ -44,12 +41,15 @@
                       "cwd": "/home/adorukw/AAAPAN/Project/Note",
                       "focus": false,
                       "profile": {
-                        "args": [],
+                        "args": [
+                          "--login"
+                        ],
                         "environment": [],
-                        "executable": "/bin/sh",
+                        "executable": "/bin/bash",
                         "followTheme": true,
-                        "name": "",
+                        "name": "bash",
                         "platforms": {
+                          "darwin": true,
                           "linux": true
                         },
                         "pythonExecutable": "python3",
@@ -66,14 +66,13 @@
                         "type": "integrated",
                         "useWin32Conhost": true
                       },
-                      "profileSourceId": "linuxIntegratedDefault",
+                      "profileSourceId": "1d4419f7-5889-47c8-b3ca-29ffb6911061",
                       "serial": null,
                       "userTitle": ""
                     }
                   },
-                  "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：sh"
+                  "title": "终端：adorukw@Adorukw-WUJIE: ~/AAAPAN/Project/Note"
                 }
               }
             ]
@@ -239,8 +238,31 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "4336ba9a06bc896c",
+  "active": "9a0353505c43756a",
   "lastOpenFiles": [
-    "读书笔记/读聊斋志异之笔记.md"
+    "技术笔记/后端/FastAPI/基础教学.md",
+    "技术笔记/未命名.md",
+    "技术笔记/后端/FastAPI",
+    "技术笔记/后端",
+    "技术笔记/编程语言/TypeScript/TypeScript+快速上手/TypeScript 快速上手.pdf",
+    "技术笔记/编程语言/Markdown/markdown使用时机.md",
+    "技术笔记/编程语言/Markdown/markdown简明指南.md",
+    "技术笔记/编程语言/C++/cpp-master/README.md",
+    "技术笔记/编程语言/C++/cpp-master/SDL/SDL.md",
+    "技术笔记/编程语言/C++/cpp-master/cmake/cmake.md",
+    "技术笔记/编程语言/C++/cpp-master/cmake/img/install.png",
+    "未命名.canvas",
+    "未命名.md",
+    "技术笔记/编程语言/C++/cpp-master/C++ STD LIB/CPP_STD_LIB.md",
+    "技术笔记/前端/通用/webStudy-main/Node.js课件/day04/5.http报文&状态码/1.GET请求报文.md",
+    "未命名",
+    "技术笔记/系统环境/飞牛OS安装VMWare.md",
+    "技术笔记/系统环境/安装debian双系统以及配置教程.md",
+    "技术笔记/系统环境/Archlinux虚拟机安装以及配置教程.md",
+    "技术笔记/系统环境/debian配置git.md",
+    "技术笔记/前端/通用/webStudy-main/vue-天禹+源哥项目/后台管理系统项目资源/成品项目/gshop-admin/README-zh.md",
+    "技术笔记/系统环境/云服务器部署nextcloud.md",
+    "读书笔记/读聊斋志异之笔记.md",
+    "未命名.base"
   ]
 }

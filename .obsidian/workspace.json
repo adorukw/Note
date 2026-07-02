@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "805f1a78c0143cc2",
+        "id": "35c335f0326ff48d",
         "type": "split",
         "children": [
           {
@@ -17,22 +17,22 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "技术笔记/后端/FastAPI/基础教学.md",
+                    "file": "技术笔记/编程语言/C++/基础教程.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "基础教学"
+                  "title": "基础教程"
                 }
               }
             ]
           },
           {
-            "id": "8c434a15943ab928",
+            "id": "4f27522c90088599",
             "type": "tabs",
             "children": [
               {
-                "id": "9a0353505c43756a",
+                "id": "02eaf18fda7d8889",
                 "type": "leaf",
                 "state": {
                   "type": "terminal:terminal",
@@ -238,9 +238,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "9a0353505c43756a",
+  "active": "02eaf18fda7d8889",
   "lastOpenFiles": [
+    "技术笔记/编程语言/C++/基础教程.md",
     "技术笔记/后端/FastAPI/基础教学.md",
+    "技术笔记/编程语言/C++/C++系统教程.md",
     "技术笔记/未命名.md",
     "技术笔记/后端/FastAPI",
     "技术笔记/后端",

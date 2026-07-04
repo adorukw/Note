@@ -7,7 +7,7 @@
   "focusOnNewInstance": true,
   "hideStatusBar": "focused",
   "interceptKeysWhenFocused": true,
-  "interceptLogging": true,
+  "interceptLogging": false,
   "keymappings": [
     {
       "action": "sendEscapeSequence",

@@ -1,6 +1,6 @@
 # vue-admin-template
 
-English | [简体中文](./README-zh.md)
+English | [简体中文](Pending/通用/webStudy-main/vue-天禹+源哥项目/后台管理系统项目资源/成品项目/gshop-admin/README-zh.md)
 
 > A minimal vue admin template with Element UI & axios & iconfont & permission control & lint
 

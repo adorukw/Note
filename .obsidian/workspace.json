@@ -4,31 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "782eb6664be38386",
+        "id": "7177d158d16e21b9",
         "type": "split",
         "children": [
           {
-            "id": "fbd2f5335d0bf698",
+            "id": "4138b4a3012b5faa",
             "type": "tabs",
             "children": [
               {
-                "id": "01b40f0b708f438e",
+                "id": "addc04ebe2f53f69",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "技术笔记/编程语言/TypeScript/系统教程.md",
+                    "mode": "preview",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "新标签页"
+                  "title": "系统教程"
                 }
               }
             ]
           },
           {
-            "id": "09c31631e5e74209",
+            "id": "07e82114cad2076e",
             "type": "tabs",
             "children": [
               {
-                "id": "809923b44d9109ce",
+                "id": "3ee0bf6e6e28ac44",
                 "type": "leaf",
                 "state": {
                   "type": "terminal:terminal",
@@ -131,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "06764d1909f33537",
@@ -147,6 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "技术笔记/后端/FastAPI/基础教学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +162,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "基础教学 的反向链接列表"
             }
           },
           {
@@ -234,8 +240,22 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "809923b44d9109ce",
+  "active": "3ee0bf6e6e28ac44",
   "lastOpenFiles": [
+    "技术笔记/编程语言/TypeScript/系统教程.md",
+    "技术笔记/test.md",
+    "Pending/TypeScript+快速上手/TypeScript 快速上手.pdf",
+    "技术笔记/前端/Vue3",
+    "技术笔记/GUI/Qt6/系统教程.md",
+    "技术笔记/后端/FastAPI/基础教学.md",
+    "技术笔记/工具/Markdown/系统教程.md",
+    "技术笔记/工具/CMake/系统教程.md",
+    "技术笔记/编程语言/Python/系统教程.md",
+    "技术笔记/编程语言/C++/系统教程.md",
+    "url.md",
+    "技术笔记/工具/Markdown/Markdown系统教程.md",
+    "技术笔记/工具/Markdown",
+    "技术笔记/工具",
     "技术笔记/运维/运维学习路线&真成运维.md",
     "技术笔记/系统环境/VSCode/配置C与C++环境.md",
     "技术笔记/系统环境/VSCode/配置SDL.md",
@@ -259,22 +279,9 @@
     "技术笔记/运维/SQLCheatSheet-ByGeekHour.pdf",
     "Pending/Markdown/markdown简明指南.md",
     "Pending/Markdown/markdown使用时机.md",
-    "技术笔记/编程语言/C++/系统教程.md",
-    "技术笔记/编程语言/TypeScript/系统教程.md",
     "技术笔记/编程语言/TypeScript/TypeScript系统教程.md",
-    "Pending",
-    "Pending/TypeScript+快速上手/TypeScript 快速上手.pdf",
-    "技术笔记/未命名",
-    "技术笔记/编程语言/Python/系统教程.md",
     "技术笔记/编程语言/Python/Python系统教程.md",
-    "技术笔记/编程语言/Python",
     "技术笔记/编程语言/C++/test.md",
-    "技术笔记/后端/FastAPI/基础教学.md",
-    "技术笔记/编程语言/C++/C++系统教程.md",
-    "技术笔记/未命名.md",
-    "Pending/cpp-master/README.md",
-    "Pending/cpp-master/SDL/SDL.md",
-    "Pending/cpp-master/cmake/cmake.md",
     "Pending/cpp-master/cmake/img/install.png",
     "未命名.canvas"
   ]

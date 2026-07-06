@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "7177d158d16e21b9",
+        "id": "c65c3543d031e3d5",
         "type": "split",
         "children": [
           {
@@ -12,12 +12,12 @@
             "type": "tabs",
             "children": [
               {
-                "id": "addc04ebe2f53f69",
+                "id": "3ee0bf6e6e28ac44",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "技术笔记/编程语言/TypeScript/系统教程.md",
+                    "file": "技术笔记/编程语言/Python/系统教程.md",
                     "mode": "preview",
                     "source": false
                   },
@@ -28,11 +28,11 @@
             ]
           },
           {
-            "id": "07e82114cad2076e",
+            "id": "aa97c680b77ab80c",
             "type": "tabs",
             "children": [
               {
-                "id": "3ee0bf6e6e28ac44",
+                "id": "1f22886dd65aed03",
                 "type": "leaf",
                 "state": {
                   "type": "terminal:terminal",
@@ -135,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "06764d1909f33537",
@@ -240,9 +239,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "3ee0bf6e6e28ac44",
+  "active": "1f22886dd65aed03",
   "lastOpenFiles": [
+    "技术笔记/编程语言/Python/系统教程.md",
+    "技术笔记/前端/Vue3/系统教程.md",
     "技术笔记/编程语言/TypeScript/系统教程.md",
+    "技术笔记/前端/Vue3/Vue3系统教程.md",
     "技术笔记/test.md",
     "Pending/TypeScript+快速上手/TypeScript 快速上手.pdf",
     "技术笔记/前端/Vue3",
@@ -250,7 +252,6 @@
     "技术笔记/后端/FastAPI/基础教学.md",
     "技术笔记/工具/Markdown/系统教程.md",
     "技术笔记/工具/CMake/系统教程.md",
-    "技术笔记/编程语言/Python/系统教程.md",
     "技术笔记/编程语言/C++/系统教程.md",
     "url.md",
     "技术笔记/工具/Markdown/Markdown系统教程.md",
@@ -280,8 +281,6 @@
     "Pending/Markdown/markdown简明指南.md",
     "Pending/Markdown/markdown使用时机.md",
     "技术笔记/编程语言/TypeScript/TypeScript系统教程.md",
-    "技术笔记/编程语言/Python/Python系统教程.md",
-    "技术笔记/编程语言/C++/test.md",
     "Pending/cpp-master/cmake/img/install.png",
     "未命名.canvas"
   ]

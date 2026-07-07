@@ -51,6 +51,13 @@
 10. Godot
 11. Xournal++
 12. Calibre
+13. AppImageLauncher	
+	```
+	sudo apt update
+	sudo apt install libfuse2
+	sudo apt install appimagelauncher
+	```
+
 ---
 
 ## 五. 安装各种扩展
@@ -143,3 +150,23 @@
         }
     }
     ```
+
+## 六. 安装Windows字体
+1. 从Windows系统复制`C:\Windows\Fonts`下面的所有字体文件
+2. 将文件复制到Debian系统下面的`/usr/share/fonts/windows`中
+	```
+	sudo mkdir -p /usr/share/fonts/winfonts
+	sudo cp *.ttf *.ttc /usr/share/fonts/winfonts/
+	sudo chmod -R 755 /usr/share/fonts/winfonts
+	```
+3. 更新字体缓存
+	```
+	sudo fc-cache -fv
+	```
+4. 使用`fc-list :lang=zh`查看是否安装成功
+	```
+	fc-list | grep -i "Microsoft YaHei"   # 微软雅黑
+	fc-list | grep -i "SimSun"             # 宋体
+	fc-list :lang=zh                       # 所有中文字体
+	fc-list | grep -i "Arial"              # 英文字体
+	```

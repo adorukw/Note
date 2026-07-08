@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d52b720c2848c08b",
+        "id": "9604f8cfe4eb2f78",
         "type": "split",
         "children": [
           {
-            "id": "4138b4a3012b5faa",
+            "id": "d3345c9354ae7d4f",
             "type": "tabs",
             "children": [
               {
-                "id": "1f22886dd65aed03",
+                "id": "047939ead90844dc",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "技术笔记/规范/命名/系统教程.md",
-                    "mode": "preview",
-                    "source": true
+                    "file": "技术笔记/工具/Linux/系统教程.md",
+                    "mode": "source",
+                    "source": false
                   },
                   "icon": "lucide-file",
                   "title": "系统教程"
@@ -28,11 +28,11 @@
             ]
           },
           {
-            "id": "5992ab8109b862df",
+            "id": "9be428c35464e8fe",
             "type": "tabs",
             "children": [
               {
-                "id": "047939ead90844dc",
+                "id": "87dc484d9c63b0a9",
                 "type": "leaf",
                 "state": {
                   "type": "terminal:terminal",
@@ -239,20 +239,33 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "047939ead90844dc",
+  "active": "87dc484d9c63b0a9",
   "lastOpenFiles": [
+    "技术笔记/工具/Linux/系统教程.md",
+    "技术笔记/工具/Git/系统教程.md",
+    "技术笔记/工具/Linux/Linux系统教程.md",
+    "技术笔记/工具/Linux",
+    "技术笔记/前端/Vue3/系统教程.md",
+    "技术笔记/编程语言/Shell/系统教程.md",
+    "技术笔记/工具/CMake/系统教程.md",
+    "技术笔记/编程语言/Shell/Shell教程.md",
+    "技术笔记/编程语言/Shell",
+    "技术笔记/运维/运维学习路线&真成运维.md",
+    "技术笔记/游戏/算法/游戏人工智能算法教程.md",
+    "技术笔记/游戏/算法",
+    "技术笔记/游戏/游戏人工智能算法教程.md",
+    "技术笔记/后端/FastAPI/系统教程.md",
+    "技术笔记/后端/FastAPI/FastAPI系统教程.md",
+    "技术笔记/后端/FastAPI/游戏人工智能算法教程.md",
+    "技术笔记/系统环境/Debian/Debian13安装教程.md",
     "技术笔记/规范/命名/系统教程.md",
     "技术笔记/规范/命名.md",
     "技术笔记/规范/命名",
-    "技术笔记/工具/Git/系统教程.md",
     "技术笔记/规范",
-    "技术笔记/系统环境/Debian/Debian13安装教程.md",
     "技术笔记/工具/Git",
     "技术笔记/后端/SQLAlchemy/SQLAlchemy系统教程.md",
-    "技术笔记/前端/Vue3/系统教程.md",
     "技术笔记/后端/FastAPI/基础教学.md",
     "技术笔记/工具/Markdown/系统教程.md",
-    "技术笔记/工具/CMake/系统教程.md",
     "技术笔记/编程语言/C++/系统教程.md",
     "技术笔记/编程语言/TypeScript/系统教程.md",
     "技术笔记/编程语言/Python/系统教程.md",
@@ -264,18 +277,6 @@
     "技术笔记/后端/SQLAlchemy",
     "技术笔记/后端/SQLA/SQLAlchemy系统教程.md",
     "技术笔记/后端/SQLA",
-    "读书笔记/读聊斋志异之笔记.md",
-    "技术笔记/算法/系统教程.md",
-    "技术笔记/算法/ACM算法竞赛系统教程.md",
-    "技术笔记/算法",
-    "技术笔记/前端/Vue3/Vue3系统教程.md",
-    "技术笔记/test.md",
-    "Pending/TypeScript+快速上手/TypeScript 快速上手.pdf",
-    "技术笔记/前端/Vue3",
-    "技术笔记/GUI/Qt6/系统教程.md",
-    "url.md",
-    "技术笔记/工具/Markdown/Markdown系统教程.md",
-    "技术笔记/运维/运维学习路线&真成运维.md",
     "技术笔记/系统环境/Debian13安装教程/image-1.png",
     "技术笔记/系统环境/Debian13安装教程/image-2.png",
     "技术笔记/系统环境/Debian13安装教程/image.png",

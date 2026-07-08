@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "9604f8cfe4eb2f78",
+        "id": "f5e11d229d1a7f0b",
         "type": "split",
         "children": [
           {
@@ -17,8 +17,8 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "技术笔记/工具/Linux/系统教程.md",
-                    "mode": "source",
+                    "file": "技术笔记/编程语言/JavaScript/系统教程.md",
+                    "mode": "preview",
                     "source": false
                   },
                   "icon": "lucide-file",
@@ -28,11 +28,11 @@
             ]
           },
           {
-            "id": "9be428c35464e8fe",
+            "id": "e8e194f321d68c44",
             "type": "tabs",
             "children": [
               {
-                "id": "87dc484d9c63b0a9",
+                "id": "f8d1f047b56cd97e",
                 "type": "leaf",
                 "state": {
                   "type": "terminal:terminal",
@@ -239,14 +239,24 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "87dc484d9c63b0a9",
+  "active": "f8d1f047b56cd97e",
   "lastOpenFiles": [
+    "技术笔记/编程语言/JavaScript/系统教程.md",
+    "技术笔记/编程语言/TypeScript/系统教程.md",
+    "技术笔记/编程语言/JavaScript/JavaScript系统教程.md",
+    "技术笔记/编程语言/JavaScript",
+    "技术笔记/工具/Nginx/系统教程.md",
+    "技术笔记/系统环境/Debian/Debian13安装教程.md",
+    "技术笔记/工具/Nginx/Nginx教程_从入门到实战.md",
+    "技术笔记/工具/Nginx",
+    "技术笔记/系统环境/Debian/樱花穿透免费云服务器搭建.md",
+    "技术笔记/编程语言/Shell/系统教程.md",
     "技术笔记/工具/Linux/系统教程.md",
+    "技术笔记/规范/命名/系统教程.md",
     "技术笔记/工具/Git/系统教程.md",
     "技术笔记/工具/Linux/Linux系统教程.md",
     "技术笔记/工具/Linux",
     "技术笔记/前端/Vue3/系统教程.md",
-    "技术笔记/编程语言/Shell/系统教程.md",
     "技术笔记/工具/CMake/系统教程.md",
     "技术笔记/编程语言/Shell/Shell教程.md",
     "技术笔记/编程语言/Shell",
@@ -257,8 +267,6 @@
     "技术笔记/后端/FastAPI/系统教程.md",
     "技术笔记/后端/FastAPI/FastAPI系统教程.md",
     "技术笔记/后端/FastAPI/游戏人工智能算法教程.md",
-    "技术笔记/系统环境/Debian/Debian13安装教程.md",
-    "技术笔记/规范/命名/系统教程.md",
     "技术笔记/规范/命名.md",
     "技术笔记/规范/命名",
     "技术笔记/规范",
@@ -267,16 +275,8 @@
     "技术笔记/后端/FastAPI/基础教学.md",
     "技术笔记/工具/Markdown/系统教程.md",
     "技术笔记/编程语言/C++/系统教程.md",
-    "技术笔记/编程语言/TypeScript/系统教程.md",
-    "技术笔记/编程语言/Python/系统教程.md",
-    "技术笔记/系统环境/Debian/安装debian双系统以及配置教程.md",
-    "技术笔记/游戏/Godot/系统教程.md",
-    "技术笔记/游戏/Godot/Godot游戏引擎系统教程.md",
     "技术笔记/游戏/Godot",
     "技术笔记/游戏",
-    "技术笔记/后端/SQLAlchemy",
-    "技术笔记/后端/SQLA/SQLAlchemy系统教程.md",
-    "技术笔记/后端/SQLA",
     "技术笔记/系统环境/Debian13安装教程/image-1.png",
     "技术笔记/系统环境/Debian13安装教程/image-2.png",
     "技术笔记/系统环境/Debian13安装教程/image.png",

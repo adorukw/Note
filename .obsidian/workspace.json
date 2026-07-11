@@ -4,56 +4,128 @@
     "type": "split",
     "children": [
       {
-        "id": "e9c599866481caf5",
-        "type": "tabs",
+        "id": "7b1115bcc5112c9e",
+        "type": "split",
         "children": [
           {
-            "id": "13d46ce95f3a156b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "技术笔记/游戏/SDL2/系统教程.md",
-                "mode": "preview",
-                "source": false
+            "id": "e9c599866481caf5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "13d46ce95f3a156b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "技术笔记/游戏/SDL2/系统教程.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "系统教程"
+                }
               },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "系统教程"
-            }
+              {
+                "id": "7c9de7d076cb032c",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "技术笔记/游戏/SDL2/游戏开发.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "游戏开发"
+                }
+              },
+              {
+                "id": "3e7caea31712e635",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "技术笔记/编程语言/C++/系统教程.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "系统教程"
+                }
+              },
+              {
+                "id": "0ac08bddc0585070",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "技术笔记/编程语言/C语言/系统教程.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "系统教程"
+                }
+              }
+            ],
+            "currentTab": 3
           },
           {
-            "id": "7c9de7d076cb032c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "技术笔记/游戏/SDL2/游戏开发.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "游戏开发"
-            }
-          },
-          {
-            "id": "3e7caea31712e635",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "技术笔记/系统环境/Debian/修复腾讯会议屏幕共享.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "修复腾讯会议屏幕共享"
-            }
+            "id": "1945e546ebe8cd76",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e63ebff42a8ce9e4",
+                "type": "leaf",
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/home/adorukw/AAAPAN/Project/Note",
+                      "focus": false,
+                      "profile": {
+                        "args": [
+                          "--login"
+                        ],
+                        "environment": [],
+                        "executable": "/bin/bash",
+                        "followTheme": true,
+                        "name": "bash",
+                        "platforms": {
+                          "darwin": true,
+                          "linux": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "profileSourceId": "1d4419f7-5889-47c8-b3ca-29ffb6911061",
+                      "serial": null,
+                      "userTitle": ""
+                    }
+                  },
+                  "icon": "terminal",
+                  "title": "终端：adorukw@Adorukw-WUJIE: ~/AAAPAN/Project/Note"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -214,11 +286,23 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "13d46ce95f3a156b",
+  "active": "e63ebff42a8ce9e4",
   "lastOpenFiles": [
+    "技术笔记/编程语言/C语言/系统教程.md",
+    "技术笔记/工具/CMake/系统教程.md",
+    "技术笔记/编程语言/C语言/C语言系统教程.md",
+    "技术笔记/编程语言/C语言",
+    "技术笔记/编程语言/C_C++编译/系统教程.md",
     "技术笔记/游戏/SDL2/游戏开发.md",
+    "技术笔记/编程语言/C_C++编译/C_CPP教程.md",
+    "技术笔记/编程语言/C_C++编译",
+    "技术笔记/编程语言/C++/系统教程.md",
+    "技术笔记/音乐/乐理/系统教程.md",
     "技术笔记/系统环境/Debian/修复腾讯会议屏幕共享.md",
     "技术笔记/游戏/SDL2/系统教程.md",
+    "技术笔记/音乐/乐理/乐理系统课程.md",
+    "技术笔记/音乐/乐理",
+    "技术笔记/音乐",
     "技术笔记/GUI/Qt6/系统教程.md",
     "技术笔记/游戏/就业方向/网易雷火招聘岗位.md",
     "技术笔记/游戏/SDL2/SDL2游戏开发系统教程.md",
@@ -239,19 +323,7 @@
     "技术笔记/系统环境/Debian/LinuxCheatSheet.pdf",
     "技术笔记/系统环境/Debian/Debian配置git.md",
     "技术笔记/系统环境/Debian/Debian13安装教程.md",
-    "技术笔记/系统环境/服务器/樱花穿透免费云服务器搭建.md",
-    "技术笔记/系统环境/Debian/安装debian双系统以及配置教程.md",
-    "技术笔记/系统环境/服务器/云服务器部署nextcloud.md",
-    "技术笔记/系统环境/VSCode/配置C与C++.md",
-    "技术笔记/系统环境/VSCode/配置SDL.md",
-    "技术笔记/后端/SQLAlchemy/系统教程.md",
-    "技术笔记/后端/FastAPI/系统教程.md",
-    "技术笔记/工具/Linux/系统教程.md",
     "技术笔记/工具/Docker",
-    "技术笔记/编程语言/JavaScript",
-    "技术笔记/工具/Nginx",
-    "技术笔记/工具/Linux",
-    "技术笔记/编程语言/Shell",
     "技术笔记/系统环境/Debian13安装教程/image-1.png",
     "技术笔记/系统环境/Debian13安装教程/image-2.png",
     "技术笔记/系统环境/Debian13安装教程/image.png",

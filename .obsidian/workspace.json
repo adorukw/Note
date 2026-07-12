@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "7b1115bcc5112c9e",
+        "id": "5a4e53c0625e5d4d",
         "type": "split",
         "children": [
           {
@@ -44,42 +44,44 @@
                 }
               },
               {
-                "id": "3e7caea31712e635",
+                "id": "0480fc5fcbd6e56b",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "技术笔记/编程语言/C++/系统教程.md",
+                    "file": "技术笔记/工具/GCC_G++/系统教程.md",
                     "mode": "preview",
                     "source": false
                   },
+                  "pinned": true,
                   "icon": "lucide-file",
                   "title": "系统教程"
                 }
               },
               {
-                "id": "0ac08bddc0585070",
+                "id": "c919658638ede585",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "技术笔记/编程语言/C语言/系统教程.md",
-                    "mode": "source",
+                    "file": "技术笔记/工具/VSCode/vscode-config详解.md",
+                    "mode": "preview",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "系统教程"
+                  "title": "vscode-config详解"
                 }
               }
             ],
             "currentTab": 3
           },
           {
-            "id": "1945e546ebe8cd76",
+            "id": "6f405b1d7d96f7e2",
             "type": "tabs",
             "children": [
               {
-                "id": "e63ebff42a8ce9e4",
+                "id": "33ca2ced71ed9c69",
                 "type": "leaf",
                 "state": {
                   "type": "terminal:terminal",
@@ -182,7 +184,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "06764d1909f33537",
@@ -286,44 +289,44 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "e63ebff42a8ce9e4",
+  "active": "33ca2ced71ed9c69",
   "lastOpenFiles": [
+    "技术笔记/工具/VSCode/vscode-config详解.md",
+    "技术笔记/工具/Linux/apt安装在哪里了.md",
+    "技术笔记/工具/Nijia/系统教程.md",
+    "技术笔记/工具/Nijia/ninja_build_system_course.md",
+    "技术笔记/工具/ninja_build_system_course.md",
+    "技术笔记/工具/Nijia",
+    "技术笔记/工具/VSCode/vscode-config-course.md",
+    "技术笔记/工具/VSCode",
+    "技术笔记/工具/Linux/系统教程.md",
+    "技术笔记/学习路线/AI_Agent开发教程.md",
+    "技术笔记/游戏/SDL2/系统教程.md",
+    "技术笔记/编程语言/Zig/系统教程.md",
+    "技术笔记/工具/GCC_G++/系统教程.md",
+    "技术笔记/美术/Aseprite/Linux源码编译Aseprite.md",
+    "技术笔记/编程语言/Zig",
+    "技术笔记/美术/Aseprite",
+    "技术笔记/美术",
+    "技术笔记/游戏/SDL2/游戏开发.md",
+    "技术笔记/编程语言/C_C++/系统教程.md",
+    "技术笔记/工具/GCC_G++/gcc-gpp-tutorial.md",
+    "技术笔记/工具/GCC_G++",
     "技术笔记/编程语言/C语言/系统教程.md",
+    "技术笔记/编程语言/C++/系统教程.md",
     "技术笔记/工具/CMake/系统教程.md",
     "技术笔记/编程语言/C语言/C语言系统教程.md",
     "技术笔记/编程语言/C语言",
-    "技术笔记/编程语言/C_C++编译/系统教程.md",
-    "技术笔记/游戏/SDL2/游戏开发.md",
     "技术笔记/编程语言/C_C++编译/C_CPP教程.md",
-    "技术笔记/编程语言/C_C++编译",
-    "技术笔记/编程语言/C++/系统教程.md",
+    "技术笔记/编程语言/C_C++",
     "技术笔记/音乐/乐理/系统教程.md",
     "技术笔记/系统环境/Debian/修复腾讯会议屏幕共享.md",
-    "技术笔记/游戏/SDL2/系统教程.md",
     "技术笔记/音乐/乐理/乐理系统课程.md",
     "技术笔记/音乐/乐理",
     "技术笔记/音乐",
     "技术笔记/GUI/Qt6/系统教程.md",
     "技术笔记/游戏/就业方向/网易雷火招聘岗位.md",
     "技术笔记/游戏/SDL2/SDL2游戏开发系统教程.md",
-    "技术笔记/游戏/就业方向",
-    "技术笔记/运维/运维学习路线&真成运维.md",
-    "技术笔记/游戏/算法/游戏人工智能算法教程.md",
-    "技术笔记/游戏/SDL2/SDL2系统教程.md",
-    "技术笔记/游戏/SDL2",
-    "技术笔记/学习路线/未来客气.md",
-    "技术笔记/后端/Redis/系统教程.md",
-    "技术笔记/后端/Redis/Redis教程.md",
-    "技术笔记/后端/Redis",
-    "技术笔记/工具/Docker/系统教程.md",
-    "技术笔记/系统环境/Debian/飞牛OS安装VMWare.md",
-    "技术笔记/后端/LangChain/系统教程.md",
-    "技术笔记/后端/LangChain/LangChain教程.md",
-    "技术笔记/后端/LangChain",
-    "技术笔记/系统环境/Debian/LinuxCheatSheet.pdf",
-    "技术笔记/系统环境/Debian/Debian配置git.md",
-    "技术笔记/系统环境/Debian/Debian13安装教程.md",
-    "技术笔记/工具/Docker",
     "技术笔记/系统环境/Debian13安装教程/image-1.png",
     "技术笔记/系统环境/Debian13安装教程/image-2.png",
     "技术笔记/系统环境/Debian13安装教程/image.png",

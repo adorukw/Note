@@ -4,130 +4,87 @@
     "type": "split",
     "children": [
       {
-        "id": "5a4e53c0625e5d4d",
-        "type": "split",
+        "id": "e9c599866481caf5",
+        "type": "tabs",
         "children": [
           {
-            "id": "e9c599866481caf5",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "13d46ce95f3a156b",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "技术笔记/游戏/SDL2/系统教程.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "系统教程"
-                }
+            "id": "13d46ce95f3a156b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术笔记/游戏/SDL2/系统教程.md",
+                "mode": "preview",
+                "source": false
               },
-              {
-                "id": "7c9de7d076cb032c",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "技术笔记/游戏/SDL2/游戏开发.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "游戏开发"
-                }
-              },
-              {
-                "id": "0480fc5fcbd6e56b",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "技术笔记/工具/GCC_G++/系统教程.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "系统教程"
-                }
-              },
-              {
-                "id": "c919658638ede585",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "技术笔记/工具/VSCode/vscode-config详解.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "vscode-config详解"
-                }
-              }
-            ],
-            "currentTab": 3
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "系统教程"
+            }
           },
           {
-            "id": "6f405b1d7d96f7e2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "33ca2ced71ed9c69",
-                "type": "leaf",
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/home/adorukw/AAAPAN/Project/Note",
-                      "focus": false,
-                      "profile": {
-                        "args": [
-                          "--login"
-                        ],
-                        "environment": [],
-                        "executable": "/bin/bash",
-                        "followTheme": true,
-                        "name": "bash",
-                        "platforms": {
-                          "darwin": true,
-                          "linux": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "profileSourceId": "1d4419f7-5889-47c8-b3ca-29ffb6911061",
-                      "serial": null,
-                      "userTitle": ""
-                    }
-                  },
-                  "icon": "terminal",
-                  "title": "终端：adorukw@Adorukw-WUJIE: ~/AAAPAN/Project/Note"
-                }
-              }
-            ]
+            "id": "7c9de7d076cb032c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术笔记/游戏/SDL2/游戏开发.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "游戏开发"
+            }
+          },
+          {
+            "id": "0480fc5fcbd6e56b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术笔记/工具/GCC_G++/系统教程.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "系统教程"
+            }
+          },
+          {
+            "id": "54323ef910a9638e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术笔记/美术/设计/UI/系统教程.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "系统教程"
+            }
+          },
+          {
+            "id": "44e5695b28daabe0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术笔记/工具/CMake/系统教程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "系统教程"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -184,8 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "06764d1909f33537",
@@ -289,44 +245,44 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "33ca2ced71ed9c69",
+  "active": "44e5695b28daabe0",
   "lastOpenFiles": [
+    "技术笔记/后端/RAG/系统教学.md",
+    "技术笔记/后端/RAG/RAG系统课程.md",
+    "技术笔记/后端/RAG",
+    "技术笔记/游戏/SDL2/游戏开发.md",
+    "技术笔记/游戏/SDL2/系统教程.md",
+    "技术笔记/美术/设计/UI/系统教程.md",
+    "技术笔记/后端/Alembic/系统教程.md",
+    "技术笔记/后端/Alembic/Alembic数据库迁移完全教程.md",
+    "技术笔记/编程语言/C++/C++系统教程.md",
+    "技术笔记/美术/设计/UI/UI设计系统教程.md",
+    "技术笔记/美术/设计/UI",
+    "技术笔记/美术/设计/UI设计系统教程.md",
+    "技术笔记/编程语言/Zig/系统教程.md",
+    "技术笔记/编程语言/C_C++/系统教程.md",
+    "技术笔记/编程语言/C++/系统教程.md",
+    "技术笔记/编程语言/C语言/系统教程.md",
+    "技术笔记/学习路线/AI_Agent开发教程.md",
+    "技术笔记/后端/Redis/系统教程.md",
+    "技术笔记/工具/GCC_G++/系统教程.md",
+    "技术笔记/后端/Alembic/Alembic教程.md",
+    "技术笔记/后端/Alembic",
+    "技术笔记/后端/Alembic教程.md",
+    "技术笔记/美术/设计",
+    "技术笔记/美术/游戏开发/游戏开发的美术管线教程.md",
+    "技术笔记/美术/游戏开发",
+    "技术笔记/美术/游戏开发的美术管线教程.md",
+    "技术笔记/系统环境/Debian/修复腾讯会议屏幕共享.md",
     "技术笔记/工具/VSCode/vscode-config详解.md",
     "技术笔记/工具/Linux/apt安装在哪里了.md",
     "技术笔记/工具/Nijia/系统教程.md",
     "技术笔记/工具/Nijia/ninja_build_system_course.md",
-    "技术笔记/工具/ninja_build_system_course.md",
     "技术笔记/工具/Nijia",
-    "技术笔记/工具/VSCode/vscode-config-course.md",
     "技术笔记/工具/VSCode",
-    "技术笔记/工具/Linux/系统教程.md",
-    "技术笔记/学习路线/AI_Agent开发教程.md",
-    "技术笔记/游戏/SDL2/系统教程.md",
-    "技术笔记/编程语言/Zig/系统教程.md",
-    "技术笔记/工具/GCC_G++/系统教程.md",
-    "技术笔记/美术/Aseprite/Linux源码编译Aseprite.md",
     "技术笔记/编程语言/Zig",
     "技术笔记/美术/Aseprite",
     "技术笔记/美术",
-    "技术笔记/游戏/SDL2/游戏开发.md",
-    "技术笔记/编程语言/C_C++/系统教程.md",
-    "技术笔记/工具/GCC_G++/gcc-gpp-tutorial.md",
-    "技术笔记/工具/GCC_G++",
-    "技术笔记/编程语言/C语言/系统教程.md",
-    "技术笔记/编程语言/C++/系统教程.md",
-    "技术笔记/工具/CMake/系统教程.md",
-    "技术笔记/编程语言/C语言/C语言系统教程.md",
-    "技术笔记/编程语言/C语言",
-    "技术笔记/编程语言/C_C++编译/C_CPP教程.md",
-    "技术笔记/编程语言/C_C++",
-    "技术笔记/音乐/乐理/系统教程.md",
-    "技术笔记/系统环境/Debian/修复腾讯会议屏幕共享.md",
-    "技术笔记/音乐/乐理/乐理系统课程.md",
-    "技术笔记/音乐/乐理",
-    "技术笔记/音乐",
-    "技术笔记/GUI/Qt6/系统教程.md",
-    "技术笔记/游戏/就业方向/网易雷火招聘岗位.md",
-    "技术笔记/游戏/SDL2/SDL2游戏开发系统教程.md",
     "技术笔记/系统环境/Debian13安装教程/image-1.png",
     "技术笔记/系统环境/Debian13安装教程/image-2.png",
     "技术笔记/系统环境/Debian13安装教程/image.png",

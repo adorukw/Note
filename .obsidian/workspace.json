@@ -61,30 +61,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术笔记/美术/设计/UI/系统教程.md",
+                "file": "技术笔记/游戏/SDL2/游戏开发.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "系统教程"
-            }
-          },
-          {
-            "id": "44e5695b28daabe0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "技术笔记/工具/CMake/系统教程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "系统教程"
+              "title": "游戏开发"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -245,14 +231,23 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "44e5695b28daabe0",
+  "active": "54323ef910a9638e",
   "lastOpenFiles": [
+    "技术笔记/工具/Ninja/系统教程.md",
+    "技术笔记/系统环境/Debian/Debian13修复Zed报错.md",
+    "技术笔记/游戏/SDL2/系统教程.md",
+    "技术笔记/游戏/SDL2/游戏开发.md",
+    "技术笔记/美术/设计/UI/系统教程.md",
+    "技术笔记/系统环境/Debian/Debian13安装落雪音乐.md",
+    "技术笔记/系统环境/Debian/Debian13安装教程.md",
+    "技术笔记/系统环境/Debian/Debian配置git.md",
+    "技术笔记/系统环境/服务器/樱花穿透免费云服务器搭建.md",
+    "技术笔记/系统环境/服务器/云服务器部署nextcloud.md",
+    "技术笔记/工具/CMake/系统教程.md",
+    "TH06Remaster_Tutorial.md",
     "技术笔记/后端/RAG/系统教学.md",
     "技术笔记/后端/RAG/RAG系统课程.md",
     "技术笔记/后端/RAG",
-    "技术笔记/游戏/SDL2/游戏开发.md",
-    "技术笔记/游戏/SDL2/系统教程.md",
-    "技术笔记/美术/设计/UI/系统教程.md",
     "技术笔记/后端/Alembic/系统教程.md",
     "技术笔记/后端/Alembic/Alembic数据库迁移完全教程.md",
     "技术笔记/编程语言/C++/C++系统教程.md",
@@ -266,19 +261,10 @@
     "技术笔记/学习路线/AI_Agent开发教程.md",
     "技术笔记/后端/Redis/系统教程.md",
     "技术笔记/工具/GCC_G++/系统教程.md",
-    "技术笔记/后端/Alembic/Alembic教程.md",
     "技术笔记/后端/Alembic",
-    "技术笔记/后端/Alembic教程.md",
     "技术笔记/美术/设计",
-    "技术笔记/美术/游戏开发/游戏开发的美术管线教程.md",
     "技术笔记/美术/游戏开发",
-    "技术笔记/美术/游戏开发的美术管线教程.md",
-    "技术笔记/系统环境/Debian/修复腾讯会议屏幕共享.md",
-    "技术笔记/工具/VSCode/vscode-config详解.md",
-    "技术笔记/工具/Linux/apt安装在哪里了.md",
-    "技术笔记/工具/Nijia/系统教程.md",
-    "技术笔记/工具/Nijia/ninja_build_system_course.md",
-    "技术笔记/工具/Nijia",
+    "技术笔记/工具/Ninja",
     "技术笔记/工具/VSCode",
     "技术笔记/编程语言/Zig",
     "技术笔记/美术/Aseprite",

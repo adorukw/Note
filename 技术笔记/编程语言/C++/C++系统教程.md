@@ -38,7 +38,9 @@
   - [第22讲 类型推导与 auto/decltype](#第22讲-类型推导与-autodecltype)
   - [第23讲 C++11/14/17/20 新特性](#第23讲-c11141720-新特性)
   - [第24讲 综合实战项目](#第24讲-综合实战项目)
-
+- [补充缺少的两讲](#补充缺少的两讲)
+  - [第22讲 文件输入输出流(第7章新增讲次)](#第22讲-文件输入输出流(第7章新增讲次))
+  - [第24讲 并发编程入门(第8章新增讲次)](#第24讲-并发编程入门(第8章新增讲次))
 ---
 
 ## 第1章 C++ 入门基础
@@ -4368,3 +4370,169 @@ C++ 是一门庞大而复杂的语言，本教程覆盖了其核心内容，但�
 5. **阅读经典书籍**：《C++ Primer》、《Effective C++》、《The C++ Programming Language》
 
 祝你在 C++ 的学习之路上不断进步，写出优雅、高效、安全的代码！
+
+---
+## 补充缺少的两讲
+
+### 第22讲 文件输入输出流(第7章新增讲次)
+
+#### 概念
+
+文件输入输出流允许程序将数据持久化存储到磁盘文件中，或从文件中读取数据。C++ 标准库提供了三个核心类用于文件操作：`std::ofstream`（输出文件流，用于写文件）、`std::ifstream`（输入文件流，用于读文件）和 `std::fstream`（双向文件流，可读可写）。文件流对象在构造时自动打开文件，析构时自动关闭文件，遵循 RAII（资源获取即初始化）原则。
+
+#### 原理
+
+文件流类继承自 `std::iostream` 体系，因此可以使用与 `std::cin/std::cout` 相同的 <<（插入）、>>（提取）运算符以及 getline 等成员函数。文件操作通常包含三个步骤：
+
+1. 打开文件：构造文件流对象并指定文件名和打开模式（如 `std::ios::in`、`std::ios::out`、`std::ios::binary`、`std::ios::app` 等）。
+2. 读写数据：通过流操作符或成员函数（如 read、write）进行数据交换。
+3. 关闭文件：通过对象析构自动完成，也可调用 close() 显式关闭。
+文件操作可能失败（如文件不存在、权限不足），因此必须检查流的状态（is_open()、fail() 或直接将流对象作为布尔值判断）。
+
+#### 例子
+
+```cpp
+#include <iostream>
+#include <fstream> // 文件流头文件
+#include <string>
+#include <vector>
+
+// 1. 写入文本文件
+void writeTextFile() {
+    std::ofstream outFile("log.txt"); // 默认模式：写文件（覆盖）
+    if (!outFile) {
+        std::cerr << "无法打开文件写入！" << std::endl;
+        return;
+    }
+    outFile << "系统日志启动" << std::endl;
+    outFile << "当前状态: 正常" << std::endl;
+    outFile.close(); // 手动关闭（可选，析构时自动关闭）
+    std::cout << "文本写入完成。" << std::endl;
+}
+
+// 2. 读取文本文件（逐行）
+void readTextFile() {
+    std::ifstream inFile("log.txt");
+    if (!inFile.is_open()) {
+        std::cerr << "无法打开文件读取！" << std::endl;
+        return;
+    }
+    std::string line;
+    std::cout << "读取文件内容:" << std::endl;
+    while (std::getline(inFile, line)) { // 每次读取一行
+        std::cout << " > " << line << std::endl;
+    }
+}
+
+// 3. 二进制读写（结构化数据）
+struct Record {
+    int id;
+    double value;
+};
+void writeBinaryFile() {
+    Record records[] = {{1, 98.5}, {2, 88.0}};
+    std::fstream binFile("data.bin", std::ios::out | std::ios::binary); // 二进制写模式
+    if (!binFile) return;
+    binFile.write(reinterpret_cast<char*>(records), sizeof(records)); // 一次性写入
+}
+
+int main() {
+    writeTextFile();
+    readTextFile();
+    writeBinaryFile();
+    
+    // 追加模式演示
+    std::ofstream log("log.txt", std::ios::app); // app = append (追加)
+    log << "追加一行日志。" << std::endl;
+    
+    return 0;
+}
+```
+
+#### 总结
+
+- std::ofstream 用于写，std::ifstream 用于读，std::fstream 双向。
+- 文件操作必须检查状态（if (outFile) 或 is_open()），防止空指针或读写错误。
+- 使用 std::ios::app 进行追加写入，std::ios::binary 用于处理非文本数据（如图片、结构体）。
+- 文件流对象析构时自动调用 close()，利用 RAII 机制管理文件句柄，保证异常安全。
+- 二进制读写时注意字节序问题，跨平台数据交换需小心处理。
+
+### 第24讲 并发编程入门(第8章新增讲次)
+
+#### 概念
+
+并发编程允许程序同时执行多个任务，充分利用多核 CPU 的性能。C++11 标准库引入了线程支持库，提供 `std::thread` 创建线程，`std::mutex` 保护共享数据，`std::condition_variable` 进行线程同步，以及 `std::atomic` 提供原子操作。并发编程的核心挑战是数据竞争和死锁。
+
+#### 原理
+
+操作系统通过时间片轮转或多核并行实现线程执行。C++ 的 `std::thread` 对象封装了操作系统线程。当多个线程同时访问同一块内存且至少有一个是写操作时，会发生数据竞争，导致未定义行为。解决方法是通过互斥量进行同步：线程访问共享数据前加锁，访问后解锁。
+C++11 提供了 RAII 封装锁（如 `std::lock_guard`、`std::unique_lock`），在构造时自动加锁，析构时自动解锁，防止因异常导致死锁。`std::async` 和 `std::future` 提供了更高层的异步任务抽象，简化了结果获取流程。
+
+#### 例子
+
+```cpp
+#include <iostream>
+#include <thread>
+#include <mutex>
+#include <vector>
+#include <numeric>
+#include <future>
+
+// 全局共享资源
+int counter = 0;
+std::mutex mtx; // 互斥量
+
+// 1. 基本线程函数
+void threadFunction(int id) {
+    std::cout << "线程 " << id << " 正在运行" << std::endl;
+}
+
+// 2. 需要锁保护的累加函数
+void increaseCounter() {
+    for (int i = 0; i < 10000; ++i) {
+        // std::lock_guard<std::mutex> lock(mtx); // 自动加锁解锁
+        // counter++;
+        // 更安全的写法：使用 C++17 的 scoped_lock
+        std::scoped_lock<std::mutex> lock(mtx);
+        counter++;
+    }
+}
+
+int main() {
+    // ===== 1. 创建与等待线程 =====
+    std::thread t1(threadFunction, 1);
+    std::thread t2(threadFunction, 2);
+    t1.join(); // 主线程等待 t1 结束
+    t2.join(); // 主线程等待 t2 结束
+    std::cout << "线程执行完毕" << std::endl;
+
+    // ===== 2. 数据竞争与互斥量 =====
+    std::vector<std::thread> threads;
+    for (int i = 0; i < 10; ++i) {
+        threads.emplace_back(increaseCounter);
+    }
+    for (auto& t : threads) {
+        t.join();
+    }
+    std::cout << "Counter 最终值: " << counter 
+              << " (预期: 100000)" << std::endl;
+
+    // ===== 3. 异步任务与 Future =====
+    auto task = std::async(std::launch::async, []() {
+        std::this_thread::sleep_for(std::chrono::seconds(1));
+        return 42; // 异步计算结果
+    });
+    std::cout << "异步任务计算中..." << std::endl;
+    std::cout << "结果: " << task.get() << std::endl; // 阻塞获取结果
+
+    return 0;
+}
+```
+
+#### 总结
+
+- `std::thread` 创建线程，必须调用 `join()`（等待结束）或 `detach()`（分离执行）。
+- 访问共享数据必须加锁，推荐使用 `std::lock_guard` 或 `std::unique_lock（RAII）`，避免忘记解锁导致死锁。
+- 数据竞争会导致程序崩溃或逻辑错误，所有非原子的写操作都需要同步。
+- `std::async` 结合 `std::future` 可以方便地实现异步计算，像调用函数一样获取线程返回值。
+- 现代 C++ 并发编程应避免直接操作 `new thread` 和裸 `mutex`，优先使用任务模型。

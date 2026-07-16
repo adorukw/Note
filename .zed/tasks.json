@@ -1,6 +1,0 @@
-[
-  {
-    "label": "View in Browser",
-    "command": "xdg-open \"$ZED_FILE\";exit",
-  },
-]

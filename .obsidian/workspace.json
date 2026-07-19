@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术笔记/游戏/SDL2/游戏开发.md",
+                "file": "技术笔记/编程语言/Python/系统教程.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "游戏开发"
+              "title": "系统教程"
             }
           }
         ],
@@ -233,10 +233,10 @@
   },
   "active": "54323ef910a9638e",
   "lastOpenFiles": [
+    "技术笔记/游戏/SDL2/游戏开发.md",
     "技术笔记/工具/Ninja/系统教程.md",
     "技术笔记/系统环境/Debian/Debian13修复Zed报错.md",
     "技术笔记/游戏/SDL2/系统教程.md",
-    "技术笔记/游戏/SDL2/游戏开发.md",
     "技术笔记/美术/设计/UI/系统教程.md",
     "技术笔记/系统环境/Debian/Debian13安装落雪音乐.md",
     "技术笔记/系统环境/Debian/Debian13安装教程.md",

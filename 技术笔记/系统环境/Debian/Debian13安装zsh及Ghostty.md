@@ -3,7 +3,6 @@
 ## 一、安装
 
 ### 1.1 安装 Zsh 与 Oh My Zsh
-
 ```bash
 sudo apt update
 sudo apt install zsh
@@ -93,6 +92,23 @@ git clone https://github.com/zsh-users/zsh-completions \
 
 ```bash
 p10k configure
+```
+
+### 2.4 重新配置conda
+
+```bash
+~/miniconda3/bin/conda init zsh
+source ~/.zshrc
+```
+
+### 2.5 重新配置nvm
+```bash
+# 把nvm脚本写入zsh配置
+echo 'export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> ~/.zshrc
+
+# 重载配置生效
+source ~/.zshrc
 ```
 
 ---

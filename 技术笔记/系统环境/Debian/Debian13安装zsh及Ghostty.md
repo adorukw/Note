@@ -111,6 +111,12 @@ echo 'export NVM_DIR="$HOME/.nvm"
 source ~/.zshrc
 ```
 
+### 2.6 重新配置OpenCode
+```bash
+echo 'export PATH="$HOME/.opencode/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
 ---
 
 ## 三、Ghostty 配置

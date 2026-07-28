@@ -103,3 +103,13 @@ sudo pacman -S pamixer pavucontrol
 
 # 确保 PipeWire 在运行
 systemctl --user enable --now pipewire pipewire-pulse wireplumber
+
+# 设置 Go 国内代理
+export GOPROXY=https://goproxy.cn,direct
+export GO111MODULE=on
+
+# 回到 yay 目录重新编译
+cd ~/yay
+makepkg -si
+
+yay -S microsoft-edge-stable-bin
